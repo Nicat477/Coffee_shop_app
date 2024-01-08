@@ -1,0 +1,28 @@
+^C:\USERS\HP8\DESKTOP\FLUTTER PROJECTS\COFFEE_SHOP\BUILD\WINDOWS\X64\CMAKEFILES\9CE0D1A078BDC4961370DD2F134CEBF1\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\dev\flutter "PROJECT_DIR=C:\Users\Hp8\Desktop\Flutter projects\coffee_shop" FLUTTER_ROOT=C:\dev\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\Hp8\Desktop\Flutter projects\coffee_shop\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\Hp8\Desktop\Flutter projects\coffee_shop" "FLUTTER_TARGET=C:\Users\Hp8\Desktop\Flutter projects\coffee_shop\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC83NGQxNjYyN2I5NDBiYjE1ZTUwODkxZjgyY2FkNmMzZTM0NjViZDZkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\Hp8\Desktop\Flutter projects\coffee_shop\.dart_tool\package_config.json" C:/dev/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP8\DESKTOP\FLUTTER PROJECTS\COFFEE_SHOP\BUILD\WINDOWS\X64\CMAKEFILES\2FE5382B3A40D10C6632BC6E9B26575A\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP8\DESKTOP\FLUTTER PROJECTS\COFFEE_SHOP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Hp8/Desktop/Flutter projects/coffee_shop/windows" "-BC:/Users/Hp8/Desktop/Flutter projects/coffee_shop/build/windows/x64" --check-stamp-file "C:/Users/Hp8/Desktop/Flutter projects/coffee_shop/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

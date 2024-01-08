@@ -1,0 +1,10 @@
+^C:\USERS\HP8\DESKTOP\FLUTTER PROJECTS\COFFEE_SHOP\BUILD\WINDOWS\X64\CMAKEFILES\75C308C35AE8CFAE4994AE6FF812B077\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Hp8/Desktop/Flutter projects/coffee_shop/windows" "-BC:/Users/Hp8/Desktop/Flutter projects/coffee_shop/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Hp8/Desktop/Flutter projects/coffee_shop/build/windows/x64/coffee_shop.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
